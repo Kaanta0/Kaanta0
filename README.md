@@ -27,9 +27,8 @@ MotherSphere@Colony $ neofetch
           alt="spotify-github-profile"
           width="250" height="300">
       </a>
-      [![Discord Presence](https://lanyard.cnrad.dev/api/503306069884534796)](https://discord.com/users/503306069884534796)
     </td>
-
+[![Discord Presence](https://lanyard.cnrad.dev/api/:id)](https://discord.com/users/:id)
 <!-- RIGHT column: C# block -->
 <td valign="top">
 <pre><code class="language-csharp">●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
