@@ -31,7 +31,7 @@ MotherSphere@Colony $ neofetch
         <img
           src="https://lanyard.cnrad.dev/api/503306069884534796"
           alt="Discord Presence"
-          width="250" height="300">
+          width="250" height="600">
       </a>
     </td>
 <!-- RIGHT column: C# block -->
