@@ -97,7 +97,7 @@ MotherSphere@Colony $ neofetch
     <br>
     <p align="right">
         <a href = "https://youtu.be/LrsJSds358Q?list=RDLrsJSds358Q">
-            <img src = "https://i.ytimg.com/vi/RDLrsJSds358Q/maxresdefault.jpg" width = "170" align = "left">
+            <img src = "https://i.ytimg.com/vi/LrsJSds358Q/maxresdefault.jpg" width = "170" align = "left">
         </a>
         <b>“May your memories live on, Forever”</b>
     </p>
