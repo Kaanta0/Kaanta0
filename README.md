@@ -96,10 +96,10 @@ MotherSphere@Colony $ neofetch
     <br>
     <br>
     <p align="right">
-        <a href = "https://www.youtube.com/watch?v=ziZX0vy8xAM">
-            <img src = "https://i.ytimg.com/vi/ziZX0vy8xAM/maxresdefault.jpg" width = "170" align = "left">
+        <a href = "https://youtu.be/LrsJSds358Q?list=RDLrsJSds358Q">
+            <img src = "https://i.ytimg.com/vi/RDLrsJSds358Q/maxresdefault.jpg" width = "170" align = "left">
         </a>
-        <b>“It Began With Me, I Am The Source Of It All”</b>
+        <b>“May your memories live on, Forever”</b>
     </p>
     <br>
     <br>
