@@ -24,7 +24,7 @@ MotherSphere@Colony $ neofetch
         <img
           src="https://lanyard.cnrad.dev/api/503306069884534796?theme=light&bg=809ecf&animated=false&hideDiscrim=true&borderRadius=30px&idleMessage=Probably%20doing%20something%20else..."
           alt="Discord Presence"
-          width="250">
+          width="400">
       </a>
       <img src="img/StellarBlade_eve.webp" width="550" alt="Stellar Blade Eve"><br><br>
       <a href="https://github.com/kittinan/spotify-github-profile">
