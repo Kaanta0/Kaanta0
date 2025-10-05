@@ -33,7 +33,6 @@ MotherSphere@Colony $ neofetch
           alt="spotify-github-profile"
           width="250" height="300">
       </a>
-
     </td>
 <!-- RIGHT column: C# block -->
 <td valign="top">
