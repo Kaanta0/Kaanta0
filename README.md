@@ -21,13 +21,13 @@ MotherSphere@Colony $ neofetch
     <!-- LEFT column: images stacked vertically -->
     <td valign="top" align="center">
       <img src="img/StellarBlade_eve.webp" width="550" alt="Stellar Blade Eve"><br><br>
-      [![Discord Presence](https://lanyard.cnrad.dev/api/503306069884534796)](https://discord.com/users/503306069884534796)
       <a href="https://github.com/kittinan/spotify-github-profile">
         <img
           src="https://spotify-github-profile.kittinanx.com/api/view?uid=3h1cg9ljpxi05octh0swt44cv&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false"
           alt="spotify-github-profile"
           width="250" height="300">
       </a>
+      [![Discord Presence](https://lanyard.cnrad.dev/api/503306069884534796)](https://discord.com/users/503306069884534796)
     </td>
 
 <!-- RIGHT column: C# block -->
