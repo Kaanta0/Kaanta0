@@ -22,7 +22,7 @@ MotherSphere@Colony $ neofetch
     <td valign="top" align="center">
       <a href="https://discord.com/users/503306069884534796">
         <img
-          src="https://lanyard.cnrad.dev/api/503306069884534796"
+          src="https://lanyard.cnrad.dev/api/503306069884534796?theme=light&bg=809ecf&animated=false&hideDiscrim=true&borderRadius=30px&idleMessage=Probably%20doing%20something%20else..."
           alt="Discord Presence"
           width="250">
       </a>
