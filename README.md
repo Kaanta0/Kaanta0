@@ -90,8 +90,6 @@ MotherSphere@Colony $ neofetch
     </td>
   </tr>
 </table>
-
-<b>{INSERT DISCORD ACTIVITY}”</b>
 <div>
     <br>
     <br>
