@@ -173,14 +173,6 @@ MotherSphere@Colony $ neofetch
     </p>
 </div>
 <br>
-<br>
-<h1 align="center"> My contributions game 🐍🎮</h1>
-<p align = "justify">
-        My nexusMods profile : https://forums.nexusmods.com/profile/86878448-milyc/
-        <br>
-    </p>
-<br>
-
 <h2 align ="center"> 📝 Contact me 📝</h2>
 <br> 
 <div align="center">
