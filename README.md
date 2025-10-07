@@ -200,7 +200,7 @@ MotherSphere@Colony $ neofetch
 <div>
     <h2 align="center">Thank you for reading 🙋🏻‍♂️</h2>
     <div align="center">
-        <img src="https://media.tenor.com/pmjrDsHAQSYAAAAd/hatsunemiku-miku.gif" width="500"/>
+        <img src="img/nod_SB.gif" width="500"/>
     </div>
 </div>
 <br> 
