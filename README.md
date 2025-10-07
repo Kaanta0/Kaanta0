@@ -187,6 +187,7 @@ MotherSphere@Colony $ neofetch
     <a href="https://github.com/mothersphere" target="_blank">
         <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;">
     </a>
+    <br>
     <img align="center"src = "img/hiii_SB.gif" width = "500">
 </div>  
 <br>
