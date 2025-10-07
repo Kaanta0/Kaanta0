@@ -174,11 +174,11 @@ MotherSphere@Colony $ neofetch
 </div>
 <br>
 <h2 align ="center"> 📝 Contact me 📝</h2>
-<br> 
 <div align="center">
     <a href="https://github.com/mothersphere" target="_blank">
         <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;">
     </a>
+    <br>
     <br>
     <img align="center"src = "img/doit_SB.gif" width = "500">
     <img align="center"src = "img/hiii_SB.gif" width = "500">
