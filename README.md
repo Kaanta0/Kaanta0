@@ -176,7 +176,7 @@ MotherSphere@Colony $ neofetch
 <br>
 <h1 align="center"> My contributions game 🐍🎮</h1>
 <p align = "justify">
-        {INSERT NEXUS MOD CONTRIBUTIONS} (MAIS JE SAIS PAS ENCORE COMMENT LE FAIRE)
+        My nexusMods profile : https://forums.nexusmods.com/profile/86878448-milyc/
         <br>
     </p>
 <br>
@@ -188,6 +188,7 @@ MotherSphere@Colony $ neofetch
         <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;">
     </a>
     <br>
+    <img align="center"src = "img/doit_SB.gif" width = "500">
     <img align="center"src = "img/hiii_SB.gif" width = "500">
 </div>  
 <br>
