@@ -75,6 +75,7 @@ MotherSphere@Colony $ neofetch
     </td>
   </tr>
 </table>
+<img align="center"src = "img/go_SB.gif" width = "500">
 <div>
     <h2 align="center"> 🔎Knowledge📖 </h2>
 </div>
