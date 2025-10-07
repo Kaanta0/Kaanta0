@@ -172,7 +172,6 @@ MotherSphere@Colony $ neofetch
             <img width="120%" alt="GraphStats" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mothersphere&theme=2077">
     </p>
 </div>
-<br>
 <h2 align ="center"> 📝 Contact me 📝</h2>
 <div align="center">
     <a href="https://github.com/mothersphere" target="_blank">
