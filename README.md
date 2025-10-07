@@ -194,7 +194,7 @@ MotherSphere@Colony $ neofetch
         <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;">
     </a>
     <br>
-    <img align="center"src = "img/vocaloid/hiii_SB.gif" width = "500">
+    <img align="center"src = "img/hiii_SB.gif" width = "500">
 </div>  
 <br>
 <div>
