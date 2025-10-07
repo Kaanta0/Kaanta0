@@ -136,12 +136,12 @@ MotherSphere@Colony $ neofetch
 </div>
 <div align = "center">
     <p align = "justify">
-        I am 10000% a weeb who loves anime and talks about it all the time !
+        Behold ! My skills :
         <br>
     </p>
     <p align = "center">
          <a href="https://skillicons.dev">
-            <img style="margin: 10px"src="https://skillicons.dev/icons?i=androidstudio,bash,linux,git,github,gitlab,java,kotlin,latex,py,sklearn,swift,c,cpp,css,html,tensorflow,aws,haskell&perline=8"alt="My Skills"> 
+            <img style="margin: 10px"src="https://skillicons.dev/icons?i=bash,linux,git,github,gitlabpy,css,html&perline=8"alt="My Skills"> 
         </a>
     </p>
 </div>
