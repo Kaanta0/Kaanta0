@@ -75,10 +75,6 @@ MotherSphere@Colony $ neofetch
     </td>
   </tr>
 </table>
-<br>
-<br>
-<br>
-
 <div>
     <h2 align="center"> 🔎Knowledge📖 </h2>
 </div>
