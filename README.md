@@ -46,10 +46,8 @@ MotherSphere@Colony $ neofetch
 ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 
 ╔══════════════════════════════════════════════╗
-║ PLAYER CARD
-║
 ╠► Name : Lin Ha Zahard
-╠► Age : 27*
+╠► Age : 28
 ╠► Nationality : Belgian with a sprinkle of chinese
 ╠► Language : French, English
 ╠► Favourite Games : Stellar Blade, Mount And Blades Warband, Rust, Assassin's creed, CS:GO
@@ -58,7 +56,7 @@ MotherSphere@Colony $ neofetch
 ╠► Mumble : ✗
 ╠► TeamSpeak : ✗
 ╠► Discord : ✔
-╠► Player : [PC]✓[XBOX]✓ [PS4] ✓
+╠► Player : [PC]✓[XBOX]✓[PS4] ✓
 ╚══════════════════════════════════════════════╝
 
 ▂▃▄▅▆▇█▓▒░ PC Components ░▒▓█▇▆▅▄▃▂
@@ -73,20 +71,6 @@ MotherSphere@Colony $ neofetch
 ╠═►KeyBoard : Razer Huntsman Elite
 ╠═►Mouse : Razer Viper 8k
 ╚═►headset : Razer Kraken Tournament
-
-▂▃▄▅▆▇█▓▒░ PC Components (Second)░▒▓█▇▆▅▄▃▂
-
-╔═►OS : Windows 7 - 2017
-╠═►MotherBoard : Sabertooth 990FX R3.0
-╠═►Processor : FX-9590 Black Edition - 4.74Ghz (new edition)
-╠═►RAM : HyperX Fury - HX318C10FBK2 - 8x2 (16go)
-╠═►SSD : SSD 120 go Samsung
-╠═►Hard Disque : Samsung 2T
-╠═►GC : Asus ROG STRIX-GTX1060-O6G-GAMING
-╠═►KeyBoard : Corsair Strafe MX Red Switch
-╠►Mouse : Mionix Castor Gaming Mouse
-╠►Second Mouse : Sky digital Nmouse 4K Real 4K
-╚►Headset : Roccat Kulo
 </code></pre>
     </td>
   </tr>
