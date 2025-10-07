@@ -92,6 +92,7 @@ MotherSphere@Colony $ neofetch
   </tr>
 </table>
 <div>
+    <img align="center"src = "img/go_SB.gif" width = "500">
     <br>
     <br>
     <br>
