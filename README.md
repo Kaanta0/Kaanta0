@@ -118,6 +118,7 @@ MotherSphere@Colony $ neofetch
     <br>
     <br>
     <img align="center"src = "img/doit_SB.gif" width = "500">
+    <br>
     <img align="center"src = "img/hiii_SB.gif" width = "500">
 </div>  
 <br>
