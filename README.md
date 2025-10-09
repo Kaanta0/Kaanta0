@@ -75,7 +75,9 @@ MotherSphere@Colony $ neofetch
     </td>
   </tr>
 </table>
-<img align="center"src = "img/go_SB.gif" width = "500">
+<div align="center">
+    <img src="img/go_SB.gif" width="500" alt="Stellar Blade go animation">
+</div>
 <div>
     <h2 align="center"> 🔎Knowledge📖 </h2>
 </div>
