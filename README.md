@@ -23,6 +23,157 @@
   />
 </div>
 
+<div
+  align="center"
+  style="margin: 1.5rem 0; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;"
+>
+  <a href="https://discord.com/users/503306069884534796">
+    <img
+      src="https://lanyard.cnrad.dev/api/503306069884534796?theme=light&bg=809ecf&animated=false&hideDiscrim=true&borderRadius=30px&idleMessage=Probably%20doing%20something%20else..."
+      alt="Discord Presence"
+      width="360"
+    />
+  </a>
+  <a
+    href="https://steamcommunity.com/id/mothersphere"
+    style="text-decoration: none; color: inherit;"
+  >
+    <div
+      style="
+        width: 360px;
+        max-width: 100%;
+        background:
+          linear-gradient(160deg, rgba(16, 24, 34, 0.95) 0%, rgba(24, 40, 58, 0.92) 100%),
+          url('https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1605220/8c9b782d4272fe03b87f472873635dd42ccba793.jpg') center/cover;
+        border: 1px solid #66c0f4;
+        border-radius: 18px;
+        padding: 18px;
+        box-shadow: 0 14px 34px rgba(8, 12, 18, 0.55);
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        color: #c7d5e0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      "
+    >
+      <div style="display: flex; align-items: center; gap: 14px;">
+        <img
+          src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/ff/ff5c2ec7caae3f4b52ff1c516f2ae5f3641dfde9_full.jpg"
+          alt="MotherSphere Steam avatar"
+          style="width: 72px; height: 72px; border-radius: 10px; border: 2px solid #66c0f4; object-fit: cover;"
+        />
+        <div style="flex: 1;">
+          <div style="font-size: 1.15rem; font-weight: 600; color: #f5f5f5;">MotherSphere</div>
+          <div style="font-size: 0.82rem; color: #8f98a0;">Belgium · Steam Level 46</div>
+          <div style="display: flex; align-items: center; gap: 6px; margin-top: 6px;">
+            <img
+              src="https://community.cloudflare.steamstatic.com/public/images/skin_1/game_icons/icon_ingame.png"
+              alt="In-game icon"
+              style="height: 16px;"
+            />
+            <span style="font-size: 0.82rem; color: #90ba3c;">Currently in-game</span>
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px;">
+          <img
+            src="https://community.cloudflare.steamstatic.com/public/images/badges/13_80x80.png"
+            alt="Badge"
+            style="width: 48px; height: 48px; object-fit: contain;"
+          />
+          <span style="font-size: 0.72rem; color: #66c0f4;">Level 46</span>
+        </div>
+      </div>
+      <div
+        style="
+          background: rgba(9, 14, 22, 0.88);
+          border-radius: 12px;
+          padding: 14px;
+          display: flex;
+          gap: 14px;
+          align-items: center;
+        "
+      >
+        <img
+          src="img/StellarBlade_eve.webp"
+          alt="Featured game artwork"
+          style="width: 96px; height: 64px; object-fit: cover; border-radius: 8px; border: 1px solid #66c0f4;"
+        />
+        <div style="flex: 1;">
+          <div style="font-size: 0.95rem; font-weight: 600; color: #f5f5f5;">Stellar Blade</div>
+          <div style="font-size: 0.8rem; color: #b8c6d1;">Profile Showcase · Favorite Game</div>
+          <div style="font-size: 0.75rem; color: #8f98a0; margin-top: 6px;">Recent activity: Achievement hunting spree</div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <div
+          style="
+            flex: 1;
+            min-width: 140px;
+            background: rgba(9, 14, 22, 0.68);
+            border-radius: 10px;
+            padding: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          "
+        >
+          <img
+            src="https://store.cloudflare.steamstatic.com/public/shared/images/responsive/header_logo.png"
+            alt="Steam logo"
+            style="width: 32px; height: 32px; object-fit: contain; filter: brightness(1.2);"
+          />
+          <div>
+            <div style="font-size: 0.75rem; color: #8f98a0;">Veteran Status</div>
+            <div style="font-size: 0.85rem; color: #f5f5f5;">11 years of service</div>
+          </div>
+        </div>
+        <div
+          style="
+            flex: 1;
+            min-width: 140px;
+            background: rgba(9, 14, 22, 0.68);
+            border-radius: 10px;
+            padding: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          "
+        >
+          <img
+            src="https://community.cloudflare.steamstatic.com/public/images/skin_1/icons/icon_wishlist.png"
+            alt="Wishlist icon"
+            style="width: 28px; height: 28px; object-fit: contain;"
+          />
+          <div>
+            <div style="font-size: 0.75rem; color: #8f98a0;">Wishlist Gems</div>
+            <div style="font-size: 0.85rem; color: #f5f5f5;">Curating premium sci-fi worlds</div>
+          </div>
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          font-size: 0.78rem;
+          color: #8f98a0;
+        "
+      >
+        <span>Badges · 160+</span>
+        <span>Games · 400+</span>
+        <span>Friends · 200+</span>
+      </div>
+    </div>
+  </a>
+  <a href="https://github.com/kittinan/spotify-github-profile">
+    <img
+      src="https://spotify-github-profile.kittinanx.com/api/view?uid=3h1cg9ljpxi05octh0swt44cv&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false"
+      alt="Spotify profile"
+      width="260"
+      height="300"
+    />
+  </a>
+</div>
+
 <h2 align="center">👁️‍🗨️ About Me 👁️‍🗨️</h2>
 
 ```zsh
@@ -32,27 +183,12 @@ MotherSphere@Colony $ neofetch
 <table>
   <tr>
     <td valign="top" align="center">
-      <a href="https://discord.com/users/503306069884534796">
-        <img
-          src="https://lanyard.cnrad.dev/api/503306069884534796?theme=light&bg=809ecf&animated=false&hideDiscrim=true&borderRadius=30px&idleMessage=Probably%20doing%20something%20else..."
-          alt="Discord Presence"
-          width="400"
-        />
-      </a>
       <img
         src="img/StellarBlade_eve.webp"
         width="550"
         alt="Stellar Blade Eve"
         style="margin: 1.5rem 0;"
       />
-      <a href="https://github.com/kittinan/spotify-github-profile">
-        <img
-          src="https://spotify-github-profile.kittinanx.com/api/view?uid=3h1cg9ljpxi05octh0swt44cv&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false"
-          alt="Spotify profile"
-          width="250"
-          height="300"
-        />
-      </a>
     </td>
     <td valign="top" style="padding-left: 1.5rem;">
       <pre><code class="language-csharp">●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
