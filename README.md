@@ -12,6 +12,15 @@
     <img src="https://media1.tenor.com/m/dMFZ3Ymy9PIAAAAC/stellar-blade-eve.gif" width="300px">
 </div>
 
+<div align="center">
+    <h2>🎵 Current Vibe</h2>
+    <audio controls loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <p><sub>Swap the <code>src</code> value with any MP3 link you prefer to feature your own soundtrack.</sub></p>
+</div>
+
 <h2 align="center"> 👁️‍🗨️ About me 👁️‍🗨️ </h2>
 
 ```zsh
