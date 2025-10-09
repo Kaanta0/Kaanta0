@@ -12,6 +12,24 @@
     <img src="https://media1.tenor.com/m/dMFZ3Ymy9PIAAAAC/stellar-blade-eve.gif" width="300px">
 </div>
 
+<div align="center">
+    <h2>🎧 Current Vibe</h2>
+    <p>
+        <em>Kick back with the exact track that’s on repeat for me right now.</em>
+    </p>
+    <audio controls preload="none" style="width: 100%; max-width: 420px;">
+        <source src="https://piped.video/streamingproxy/?id=9LduXpnoUWs&amp;itag=251" type="audio/webm">
+        Your browser does not support the audio element.
+    </audio>
+    <p>
+        <sub>
+            The player above streams the audio from <a href="https://youtu.be/9LduXpnoUWs">this YouTube video</a> via the
+            <a href="https://piped.video">Piped</a> streaming proxy (itag <code>251</code>, Opus @ 160&nbsp;kbps). If you’d rather
+            self-host the MP3, just replace the <code>src</code> with a direct link to your file.
+        </sub>
+    </p>
+</div>
+
 <h2 align="center"> 👁️‍🗨️ About me 👁️‍🗨️ </h2>
 
 ```zsh
