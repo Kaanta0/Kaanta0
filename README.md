@@ -23,27 +23,6 @@
   />
 </div>
 
-<div
-  align="center"
-  style="margin: 1.5rem 0; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;"
->
-  <a href="https://discord.com/users/503306069884534796">
-    <img
-      src="https://lanyard.cnrad.dev/api/503306069884534796?theme=light&bg=809ecf&animated=false&hideDiscrim=true&borderRadius=30px&idleMessage=Probably%20doing%20something%20else..."
-      alt="Discord Presence"
-      width="450"
-    />
-  </a>
-  <a href="https://github.com/kittinan/spotify-github-profile">
-    <img
-      src="https://spotify-github-profile.kittinanx.com/api/view?uid=3h1cg9ljpxi05octh0swt44cv&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false"
-      alt="Spotify profile"
-      width="250"
-      height="300"
-    />
-  </a>
-</div>
-
 <h2 align="center">👁️‍🗨️ About Me 👁️‍🗨️</h2>
 
 ```zsh
@@ -53,12 +32,27 @@ MotherSphere@Colony $ neofetch
 <table>
   <tr>
     <td valign="top" align="center">
+      <a href="https://discord.com/users/503306069884534796">
+        <img
+          src="https://lanyard.cnrad.dev/api/503306069884534796?theme=light&bg=809ecf&animated=false&hideDiscrim=true&borderRadius=30px&idleMessage=Probably%20doing%20something%20else..."
+          alt="Discord Presence"
+          width="400"
+        />
+      </a>
       <img
         src="img/StellarBlade_eve.webp"
         width="550"
         alt="Stellar Blade Eve"
         style="margin: 1.5rem 0;"
       />
+      <a href="https://github.com/kittinan/spotify-github-profile">
+        <img
+          src="https://spotify-github-profile.kittinanx.com/api/view?uid=3h1cg9ljpxi05octh0swt44cv&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false"
+          alt="Spotify profile"
+          width="250"
+          height="300"
+        />
+      </a>
     </td>
     <td valign="top" style="padding-left: 1.5rem;">
       <pre><code class="language-csharp">●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
