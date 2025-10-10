@@ -1,0 +1,35 @@
+<svg width="360" height="332" viewBox="0 0 360 332" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="avatarClip">
+      <rect x="24" y="26" width="88" height="88" rx="18" />
+    </clipPath>
+  </defs>
+  <image href="https://avatars.cloudflare.steamstatic.com/3fa7bd72f8c6ea72576d2ada4196d1c8f3c7c601_full.jpg" x="24" y="26" width="88" height="88" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice" />
+  <rect x="24" y="26" width="88" height="88" rx="18" fill="rgba(15, 29, 44, 0.55)" stroke="rgba(102,192,244,0.45)" />
+  <g transform="translate(128 40)" font-family="'Segoe UI', 'Inter', sans-serif">
+    <text x="0" y="0" font-size="24" font-weight="700" fill="#F5FAFF">MotherSphere</text>
+    <text x="0" y="18" font-size="12" fill="#90ABC4">Level 61</text>
+    <text x="0" y="38" font-size="12" fill="#6E8BA8">Online</text>
+    <text x="0" y="58" font-size="11" fill="#4DA6DA">Lin Ha Zahard  ·  🇧🇪  ·  Member since Jan 2013</text>
+  </g>
+  <g transform="translate(24 120)" font-family="'Segoe UI', 'Inter', sans-serif">
+    <rect width="312" height="88" rx="16" fill="rgba(15, 29, 44, 0.85)" stroke="rgba(102,192,244,0.35)" />
+    <text x="20" y="26" font-size="13" font-weight="600" fill="#66C0F4">Recent playtime</text>
+    <text x="20" y="42" font-size="12" fill="#B5D8F2">
+      <tspan x="20" dy="0">Stellar Blade — 8h</tspan>
+      <tspan x='20' dy='16'>Mount &amp; Blade: Warband — 3h 30m</tspan><tspan x='20' dy='16'>Rust — 2h 20m</tspan>
+    </text>
+  </g>
+  <g transform="translate(24 220)" font-family="'Segoe UI', 'Inter', sans-serif">
+    <rect width="312" height="88" rx="16" fill="rgba(12, 24, 36, 0.85)" stroke="rgba(102,192,244,0.35)" />
+    <text x="20" y="26" font-size="13" font-weight="600" fill="#66C0F4">Badge highlights</text>
+    <text x="20" y="42" font-size="12" fill="#B5D8F2">
+      <tspan x="20" dy="0">Years of Service · Lv10</tspan>
+      <tspan x='20' dy='16'>Event badge · Lv9</tspan><tspan x='20' dy='16'>Community Ambassador · Lv6</tspan>
+    </text>
+  </g>
+  <a href="https://steamcommunity.com/id/lopobia/" target="_blank" rel="noreferrer">
+    <rect x="260" y="30" width="76" height="30" rx="10" fill="rgba(18, 42, 60, 0.85)" stroke="rgba(102,192,244,0.45)" />
+    <text x="298" y="50" font-family="'Segoe UI', 'Inter', sans-serif" font-size="11" font-weight="600" fill="#F5FAFF" text-anchor="middle">View</text>
+  </a>
+</svg>
