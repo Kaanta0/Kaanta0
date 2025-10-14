@@ -57,7 +57,8 @@
 <h2 align="center">👁️‍🗨️ About Me 👁️‍🗨️</h2>
 
 ```zsh
-MotherSphere@Colony $ neofetch
+┌─[‘\033[0;32mMotherSphere‘\033[1;37m@Colony] - [~]
+└─>[$] neofetch
 ```
 
 <table>
