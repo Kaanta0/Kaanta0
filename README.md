@@ -23,7 +23,6 @@
   />
 </div>
 <br>
-<br>
 <div
   align="center"
   style="margin: 1.5rem 0; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;"
