@@ -116,6 +116,7 @@ MotherSphere@Colony $ neofetch
 
 <h2 align="center">🔎 Knowledge 📖</h2>
 <!-- ROADMAP -->
+
 - [x] Learning Python
 - [x] Creating a GUI for {insert project}
 - [ ] Learning Vim
