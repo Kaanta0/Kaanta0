@@ -110,7 +110,7 @@ llllllllllllllll   llllllllllllllll
         <a href = "https://youtu.be/4biZQR2ov0s">
             <img src = "https://i.ytimg.com/vi/4biZQR2ov0s/maxresdefault.jpg" width = "170" align = "left">
         </a>
-        <b>🎵Lily's Atelier🎵</b>
+        <b>🎵Lily's Atelier | Stellar Blade🎵</b>
     </p>
     <br>
     <br>
@@ -118,7 +118,7 @@ llllllllllllllll   llllllllllllllll
         <a href = "https://youtu.be/2L3OCqW76hE">
             <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="170" align="right">
         </a>
-        <b><br><br>🎶Dawn in The Adan🎶🆙</b>
+        <b><br><br>🎶Dawn in The Adan | Ichiko Aoba🎶🆙</b>
     </p>
     <br>
     <br>
@@ -126,14 +126,14 @@ llllllllllllllll   llllllllllllllll
         <a href="https://youtu.be/AT5fDDKWMok">
             <img src="https://i.ytimg.com/vi/AT5fDDKWMok/maxresdefault.jpg" width="170" align="left">
         </a>
-        <b><br>🎶17 Sekibetsu🎶💌</b></p>
+        <b><br>🎶17 Sekibetsu | GATE🎶💌</b></p>
     <br>
     <br>
     <p align="left">
-    <a href="https://youtu.be/zf1S4MQvrz4">
-        <img src="https://i.ytimg.com/vi/zf1S4MQvrz4/hqdefault.jpg" width="170" align="right">
+    <a href="https://youtu.be/zdIc3CHvmzo">
+        <img src="https://i.ytimg.com/vi/zdIc3CHvmzo/hqdefault.jpg" width="170" align="right">
     </a>
-    <b><br>💘Tyga - REAL DEAL (Emin Nilsen Remix) | CAR VIDEO💕</b>
+    <b><br>💘Wu Yun Ta Na | Pulse 💕</b>
     </p>
 </div>
 
