@@ -115,6 +115,14 @@ MotherSphere@Colony $ neofetch
 </div>
 
 <h2 align="center">🔎 Knowledge 📖</h2>
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Snippets 
+- [x] LSP support
+- [ ] Keybind displayer
+- [ ] Linters
+- [ ] Debuggers
 
 <div align="center">
   <p style="max-width: 600px; text-align: justify;">
