@@ -101,6 +101,47 @@ llllllllllllllll   llllllllllllllll
   <img src="img/go_SB.gif" width="500" alt="Stellar Blade go animation" />
 </div>
 
+<div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p align="right">
+        <a href = "https://www.youtube.com/watch?v=ziZX0vy8xAM">
+            <img src = "https://i.ytimg.com/vi/ziZX0vy8xAM/maxresdefault.jpg" width = "170" align = "left">
+        </a>
+        <b>奏(かなで)CV:高橋李依とCV:雨宮天<br>🎵ふたりはいつもどんな時もつながっていける。🎵</b>
+    </p>
+    <br>
+    <br>
+    <p align="left">
+        <a href = "https://www.youtube.com/watch?v=oXlEEXws3gc">
+            <img  src ="https://i.ytimg.com/vi/oXlEEXws3gc/maxresdefault.jpg" width="170" align="right">
+        </a>
+        <b><br><br>高橋李依🎶「共感されなくてもいいじゃない」。🎶🆙</b>
+    </p>
+    <br>
+    <br>
+    <p align="right">
+        <a href="https://www.youtube.com/watch?v=jC97suFyObw">
+            <img src="https://i.ytimg.com/vi/jC97suFyObw/maxresdefault.jpg" width="170" align="left">
+        </a>
+        <b><br>雨宮天🎶「ロンリーナイト・ディスコティック」。🎶💌</b></p>
+    <br>
+    <br>
+    <p align="left">
+    <a href="https://youtu.be/b_cuMcDWwsI?si=uaO4V3vYFIG26hrr">
+        <img src="https://i.ytimg.com/vi/b_cuMcDWwsI/hqdefault.jpg" width="170" align="right">
+    </a>
+    <b><br>wowaka 『裏表ラバーズ』feat. 初音ミク。💘🪄💕</b>
+    </p>
+</div>
+
+<br>
+<br>
+<br>
+
+
 <h2 align="center">🔎 Knowledge 📖</h2>
 <!-- ROADMAP -->
 
