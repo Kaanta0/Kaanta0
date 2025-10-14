@@ -22,7 +22,8 @@
     alt="Stellar Blade Eve"
   />
 </div>
-
+<br>
+<br>
 <div
   align="center"
   style="margin: 1.5rem 0; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;"
@@ -34,6 +35,8 @@
       width="320"
     />
   </a>
+  <br>
+  <br>
   <!-- Steam showcase generated via scripts/update_steam_showcase.py -->
   <!-- Refresh with: python3 scripts/update_steam_showcase.py --vanity <steam-vanity> --cache data/steam-profile-cache.json -->
   <a href="https://steamcommunity.com/id/lopobia" style="text-decoration: none;">
@@ -44,6 +47,8 @@
       style="max-width: 100%; border-radius: 20px; box-shadow: 0 18px 32px rgba(6, 10, 18, 0.55);"
     />
   </a>
+  <br>
+  <br>
   <a href="https://github.com/kittinan/spotify-github-profile">
     <img
       src="https://spotify-github-profile.kittinanx.com/api/view?uid=3h1cg9ljpxi05octh0swt44cv&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false"
