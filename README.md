@@ -108,7 +108,7 @@ llllllllllllllll   llllllllllllllll
     <br>
     <p align="right">
         <a href = "https://youtu.be/4biZQR2ov0s">
-            <img src = "https://i.ytimg.com/vi/4biZQR2ov0s/maxresdefault.jpg" width = "170" align = "left">
+            <img src = "img/LilysAtelier.png" width = "170" align = "left">
         </a>
         <b>🎵Lily's Atelier | Stellar Blade🎵</b>
     </p>
