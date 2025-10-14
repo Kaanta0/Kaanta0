@@ -72,40 +72,26 @@
       />
     </td>
     <td valign="top" style="padding-left: 1.5rem;">
-      <pre><code class="language-csharp">●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░░█░█░█░█▀▀▀░█░░░░█▀▀▀░█▀▀█░█▀█▀█░█▀▀▀░░░░░░░░░░░░░
-░░░░░░░░░░░░░░█░█░█░█▀▀▀░█░░░░█░░░░█░░█░█░█░█░█▀▀▀░░░░░░░░░░░░░
-░░░░░░░░░░░░░░▀▀▀▀▀░▀▀▀▀░▀▀▀▀░▀▀▀▀░▀▀▀▀░▀░▀░▀░▀▀▀▀░░░░░░░░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-
-╔══════════════════════════════════════════════╗
-╠► Name : Lin Ha Zahard
-╠► Age : 28
-╠► Nationality : Belgian with a sprinkle of Chinese
-╠► Language : French, English
-╠► Favourite Games : Stellar Blade, Mount & Blade: Warband, Rust, Assassin's Creed, CS:GO
-╠► Favourite Mods : All
-╠► Skype : ✔
-╠► Mumble : ✗
-╠► TeamSpeak : ✗
-╠► Discord : ✔
-╠► Player : [PC]✓ [XBOX]✓ [PS4]✓
-╚══════════════════════════════════════════════╝
-
-▂▃▄▅▆▇█▓▒░ PC Components ░▒▓█▇▆▅▄▃▂
-
-╔═► OS : Windows 11 - 64-bit
-╠═► Motherboard : Asus ROG Crosshair VIII Formula
-╠═► Processor : Ryzen 9 3900X - 3.8 GHz
-╠═► RAM : Corsair Dominator Platinum RGB 32 GB
-╠═► Storage : Samsung SSD 970 EVO M.2 PCIe NVMe 1 TB
-╠═► GPU : ASUS GeForce RTX 2080 SUPER O8G
-╠═► Monitors : MSI 31.5" LED - Optix MAG321CQR / Acer Predator GN246HLBbid
-╠═► Keyboard : Razer Huntsman Elite
-╠═► Mouse : Razer Viper 8K
-╚═► Headset : Razer Kraken Tournament
+      <pre><code class="language-powershell">
+llllllllllllllll   llllllllllllllll            Oni Miori@DESKTOP-SM28PRM
+llllllllllllllll   llllllllllllllll            --------------
+llllllllllllllll   llllllllllllllll            OS: Windows 11
+llllllllllllllll   llllllllllllllll            Build: 24H2 (26100)
+llllllllllllllll   llllllllllllllll            Uptime: 0 days, 0 hours, 24 minutes
+llllllllllllllll   llllllllllllllll            Resolution: 1920x1080 @60Hz
+llllllllllllllll   llllllllllllllll            Terminal: Windows PowerShell
+llllllllllllllll   llllllllllllllll            CPU: AMD Ryzen 9 3900X 12-Core Processor
+llllllllllllllll   llllllllllllllll            GPU: NVIDIA GeForce RTX 2080 SUPER
+                                               Memory: 10028 MB / 32679 MB (30% in use)
+llllllllllllllll   llllllllllllllll            Disk: C:\ 953.01 GB (807.6 GB free)
+llllllllllllllll   llllllllllllllll
+llllllllllllllll   llllllllllllllll            Mem%:  -=[ //////////////////// ]=-
+llllllllllllllll   llllllllllllllll
+llllllllllllllll   llllllllllllllll            Disk%: -=[ //////////////////// ]=-
+llllllllllllllll   llllllllllllllll
+llllllllllllllll   llllllllllllllll
+llllllllllllllll   llllllllllllllll
+llllllllllllllll   llllllllllllllll
 </code></pre>
     </td>
   </tr>
