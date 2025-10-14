@@ -116,13 +116,11 @@ MotherSphere@Colony $ neofetch
 
 <h2 align="center">🔎 Knowledge 📖</h2>
 <!-- ROADMAP -->
-## Roadmap
-
-- [x] Snippets 
-- [x] LSP support
-- [ ] Keybind displayer
-- [ ] Linters
-- [ ] Debuggers
+- [x] Learning Python
+- [x] Creating a GUI for {insert project}
+- [ ] Learning Vim
+- [ ] Learning Lua
+- [ ] Learning bash/powershell
 
 <div align="center">
   <p style="max-width: 600px; text-align: justify;">
