@@ -108,7 +108,7 @@ llllllllllllllll   llllllllllllllll
     <br>
     <p align="right">
         <a href = "https://youtu.be/4biZQR2ov0s">
-            <img src = "img/LilysAtelier.png" width = "200" align = "left">
+            <img src = "img/LilysAtelier.png" width = "260" align = "left">
         </a>
         <b>🎵Lily's Atelier | Stellar Blade🎵</b>
     </p>
@@ -116,7 +116,7 @@ llllllllllllllll   llllllllllllllll
     <br>
     <p align="left">
         <a href = "https://youtu.be/2L3OCqW76hE">
-            <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="200" align="right">
+            <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="260" align="right">
         </a>
         <b><br><br>🎶Dawn in The Adan | Ichiko Aoba🎶🆙</b>
     </p>
@@ -124,14 +124,14 @@ llllllllllllllll   llllllllllllllll
     <br>
     <p align="right">
         <a href="https://youtu.be/AT5fDDKWMok">
-            <img src="https://i.ytimg.com/vi/AT5fDDKWMok/maxresdefault.jpg" width="200" align="left">
+            <img src="https://i.ytimg.com/vi/AT5fDDKWMok/maxresdefault.jpg" width="260" align="left">
         </a>
         <b><br>🎶17 Sekibetsu | GATE🎶💌</b></p>
     <br>
     <br>
     <p align="left">
     <a href="https://youtu.be/zdIc3CHvmzo">
-        <img src="https://i.ytimg.com/vi/zdIc3CHvmzo/hqdefault.jpg" width="200" align="right">
+        <img src="https://i.ytimg.com/vi/zdIc3CHvmzo/hqdefault.jpg" width="260" align="right">
     </a>
     <b><br>💘Wu Yun Ta Na | Pulse 💕</b>
     </p>
