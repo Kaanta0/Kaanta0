@@ -103,6 +103,14 @@
     </a>
     <b><br>💘Wu Yun Ta Na | Pulse 💕</b>
     </p>
+    <p align="right">
+        <a href = "https://youtu.be/4biZQR2ov0s">
+            <img src = "img/LilysAtelier.png" width = "240" align = "left">
+        </a>
+        <b>🎵Lily's Atelier | Stellar Blade🎵</b>
+    </p>
+    <br>
+    <br>
 </div>
 
 <br>
