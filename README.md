@@ -66,15 +66,6 @@
 ```
 
 <table>
-  <tr>
-    <td valign="top" align="center">
-      <img
-        src="img/StellarBlade_eve.webp"
-        width="550"
-        alt="Stellar Blade Eve"
-        style="margin: 1.5rem 0;"
-      />
-    </td>
     <td valign="top" style="padding-left: 1.5rem;">
       <pre><code class="language-powershell">
 
