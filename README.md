@@ -112,10 +112,10 @@
     <br>
     <br>
     <p align="left">
-        <a href="https://youtu.be/zdIc3CHvmzo">
-            <img src="https://i.ytimg.com/vi/zdIc3CHvmzo/hqdefault.jpg" width="240" align="right">
+        <a href = "https://youtu.be/2L3OCqW76hE">
+            <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="240" align="right">
         </a>
-        <b><br>💘Wu Yun Ta Na | Pulse 💕</b>
+        <b><br><br>🎶Dawn in The Adan | Ichiko Aoba🎶🆙</b>
     </p>
     <br>
     <br>
