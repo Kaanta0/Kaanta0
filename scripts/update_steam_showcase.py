@@ -81,6 +81,9 @@ class SteamProfile:
     personastate: int = 0
     personastateflags: Optional[int] = None
     level: Optional[int] = None
+    gameextrainfo: Optional[str] = None
+    currentlyplaying_gameid: Optional[str] = None
+    fetched_at: Optional[int] = None
     badge_highlights: List[BadgeHighlight] = field(default_factory=list)
     recent_games: List[RecentGame] = field(default_factory=list)
 
@@ -137,6 +140,29 @@ class SteamProfile:
             return f"{hours}h ago"
         minutes = max(1, delta.seconds // 60)
         return f"{minutes}m ago"
+
+    @property
+    def status_color(self) -> str:
+        colors = {
+            0: "#8BA3BC",
+            1: "#6AE6FF",
+            2: "#FF7A8A",
+            3: "#FFB86B",
+            4: "#F5D76E",
+            5: "#B38CFF",
+            6: "#4DFFB5",
+        }
+        return colors.get(self.personastate, "#66C0F4")
+
+    @property
+    def activity_line(self) -> Optional[str]:
+        if self.gameextrainfo:
+            return f"Playing {self.gameextrainfo}"
+        if self.personastate == 0 and self.last_seen:
+            return f"Last online {self.last_seen}"
+        if self.personastate != 0:
+            return self.persona_state_label
+        return None
 
 
 def fetch_json(session: requests.Session, path: str, *, params: Dict[str, Any]) -> Dict[str, Any]:
@@ -234,6 +260,8 @@ def fetch_profile(session: requests.Session, api_key: str, *, steamid: str) -> S
 
     avatar_data_uri = fetch_avatar_data(session, player.get("avatarfull", ""))
 
+    fetched_at = int(dt.datetime.now(dt.timezone.utc).timestamp())
+
     return SteamProfile(
         steamid=str(player.get("steamid")),
         personaname=player.get("personaname", "Unknown"),
@@ -247,6 +275,9 @@ def fetch_profile(session: requests.Session, api_key: str, *, steamid: str) -> S
         personastate=int(player.get("personastate", 0) or 0),
         personastateflags=player.get("personastateflags"),
         level=level,
+        gameextrainfo=player.get("gameextrainfo"),
+        currentlyplaying_gameid=player.get("gameid"),
+        fetched_at=fetched_at,
         badge_highlights=badge_highlights,
         recent_games=recent_games,
     )
@@ -276,6 +307,9 @@ def load_cached_profile(path: str) -> SteamProfile:
         personastate=int(raw.get("personastate", 0) or 0),
         personastateflags=raw.get("personastateflags"),
         level=raw.get("level"),
+        gameextrainfo=raw.get("gameextrainfo"),
+        currentlyplaying_gameid=raw.get("currentlyplaying_gameid"),
+        fetched_at=raw.get("fetched_at"),
         badge_highlights=badge_highlights,
         recent_games=recent_games,
     )
@@ -314,69 +348,131 @@ def render_svg(profile: SteamProfile) -> str:
         info_lines.append(f"Member since {profile.member_since}")
     info_line = "  ·  ".join(info_lines)
 
-    recent_lines = "".join(
-        f"<tspan x='20' dy='16'>{escape(game.name)} — {human_minutes(game.playtime_2weeks)}</tspan>"
-        for game in recent[1:]
-    )
+    meta_line_parts: List[str] = []
+    if profile.level is not None:
+        meta_line_parts.append(f"Level {profile.level}")
+    if profile.personastate == 0 and profile.last_seen:
+        meta_line_parts.append(f"Last online {profile.last_seen}")
+    else:
+        meta_line_parts.append(profile.persona_state_label)
+    meta_line = "  •  ".join(meta_line_parts)
 
-    badge_lines = "".join(
-        f"<tspan x='20' dy='16'>{escape(badge_label(badge))}</tspan>" for badge in badges[1:]
-    )
-
-    status = profile.persona_state_label
-    if profile.last_seen and profile.personastate == 0:
-        status += f" ({profile.last_seen})"
+    activity_line = profile.activity_line or ""
 
     avatar = escape(profile.avatar_data_uri or DEFAULT_AVATAR_DATA_URI)
-    level_text = f"Level {profile.level}" if profile.level is not None else "Level hidden"
+    status_color = profile.status_color
+
+    fetched_at = profile.fetched_at
+    if fetched_at:
+        try:
+            generated_at = dt.datetime.fromtimestamp(fetched_at, tz=dt.timezone.utc)
+        except (OverflowError, OSError, ValueError):  # pragma: no cover - cache corruption
+            generated_at = dt.datetime.now(dt.timezone.utc)
+    else:
+        generated_at = dt.datetime.now(dt.timezone.utc)
+    updated_label = generated_at.strftime("%d %b %Y · %H:%M UTC")
+
+    suffix = (profile.steamid or "profile")[-6:]
+
+    badge_lines = "".join(
+        f"<tspan x='22' dy='{0 if idx == 0 else 18}'>• {escape(badge_label(badge))}</tspan>"
+        for idx, badge in enumerate(badges)
+    )
+
+    max_minutes = max((game.playtime_2weeks for game in recent), default=0)
+    max_minutes = max_minutes or 1
+    bar_width = 560.0
+    progress_gradients: List[str] = []
+    progress_palette = ["#47D8E0", "#5B8CFF", "#FF9FD1"]
+    progress_rows: List[str] = []
+    for idx, game in enumerate(recent):
+        width = max(10.0, bar_width * (game.playtime_2weeks / max_minutes)) if max_minutes else 10.0
+        gradient_id = f"progressGradient{idx}_{suffix}"
+        color = progress_palette[idx % len(progress_palette)]
+        progress_gradients.append(
+            textwrap.dedent(
+                f"""
+                <linearGradient id="{gradient_id}" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="{color}" stop-opacity="0.35" />
+                  <stop offset="100%" stop-color="{color}" stop-opacity="0.95" />
+                </linearGradient>
+                """
+            ).strip()
+        )
+        progress_rows.append(
+            textwrap.dedent(
+                f"""
+                <g transform="translate(0 {idx * 36})">
+                  <text x="0" y="0" font-size="13" font-weight="600" fill="#E6F2FF">{escape(game.name)}</text>
+                  <text x="{bar_width}" y="0" font-size="12" fill="#9EBFD8" text-anchor="end">{human_minutes(game.playtime_2weeks)}</text>
+                  <rect x="0" y="12" width="{bar_width}" height="10" rx="5" fill="rgba(20, 38, 56, 0.85)" />
+                  <rect x="0" y="12" width="{width:.1f}" height="10" rx="5" fill="url(#{gradient_id})" />
+                </g>
+                """
+            ).strip()
+        )
+
+    progress_defs = "\n".join(progress_gradients)
+    progress_section = "\n".join(progress_rows)
 
     return textwrap.dedent(
         f"""
-        <svg width="360" height="260" viewBox="0 0 360 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="960" height="360" viewBox="0 0 960 360" fill="none" xmlns="http://www.w3.org/2000/svg">
           <defs>
-            <linearGradient id="steamCardGradient" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stop-color="#0B141C" />
-              <stop offset="45%" stop-color="#13283D" />
-              <stop offset="100%" stop-color="#1E405F" />
+            <linearGradient id="steamCardGradient_{suffix}" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#0A111B" />
+              <stop offset="42%" stop-color="#132B46" />
+              <stop offset="100%" stop-color="#203D5F" />
             </linearGradient>
-            <filter id="steamCardShadow" x="-20%" y="-20%" width="140%" height="140%">
-              <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#040A14" flood-opacity="0.55" />
+            <radialGradient id="avatarGlow_{suffix}" cx="0.5" cy="0.5" r="0.6">
+              <stop offset="0%" stop-color="#5CCBF7" stop-opacity="0.75" />
+              <stop offset="100%" stop-color="#112030" stop-opacity="0" />
+            </radialGradient>
+            <filter id="steamCardShadow_{suffix}" x="-12%" y="-12%" width="124%" height="124%">
+              <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#040A14" flood-opacity="0.55" />
             </filter>
-            <clipPath id="avatarClip">
-              <rect x="24" y="26" width="88" height="88" rx="18" />
+            <clipPath id="avatarClip_{suffix}">
+              <rect x="48" y="60" width="160" height="160" rx="32" />
             </clipPath>
+            {progress_defs}
           </defs>
-          <g filter="url(#steamCardShadow)">
-            <rect x="0" y="0" width="360" height="260" rx="22" fill="url(#steamCardGradient)" stroke="rgba(102,192,244,0.35)" />
+          <g filter="url(#steamCardShadow_{suffix})">
+            <rect x="0" y="0" width="960" height="360" rx="36" fill="url(#steamCardGradient_{suffix})" stroke="rgba(120, 194, 255, 0.28)" />
+            <ellipse cx="128" cy="272" rx="120" ry="94" fill="url(#avatarGlow_{suffix})" />
           </g>
-          <image href="{avatar}" x="24" y="26" width="88" height="88" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice" />
-          <rect x="24" y="26" width="88" height="88" rx="18" fill="rgba(15, 29, 44, 0.4)" stroke="rgba(102,192,244,0.45)" />
-          <g transform="translate(128 40)" font-family="'Segoe UI', 'Inter', sans-serif">
-            <text x="0" y="0" font-size="24" font-weight="700" fill="#F5FAFF">{escape(profile.personaname)}</text>
-            <text x="0" y="18" font-size="12" fill="#90ABC4">{escape(level_text)}</text>
-            <text x="0" y="38" font-size="12" fill="#6E8BA8">{escape(status)}</text>
-            <text x="0" y="58" font-size="11" fill="#4DA6DA">{escape(info_line)}</text>
+          <g font-family="'Segoe UI', 'Inter', 'Helvetica Neue', sans-serif">
+            <image href="{avatar}" x="48" y="60" width="160" height="160" clip-path="url(#avatarClip_{suffix})" preserveAspectRatio="xMidYMid slice" />
+            <rect x="48" y="60" width="160" height="160" rx="32" fill="rgba(11, 23, 35, 0.38)" stroke="rgba(115, 191, 255, 0.45)" />
+            <circle cx="196" cy="212" r="14" fill="#0A141E" stroke="rgba(255,255,255,0.15)" />
+            <circle cx="196" cy="212" r="9" fill="{status_color}" />
+            <g transform="translate(248 96)">
+              <text x="0" y="0" font-size="30" font-weight="700" fill="#F5FAFF">{escape(profile.personaname)}</text>
+              <g transform="translate(0 22)">
+                <rect x="0" y="18" width="140" height="34" rx="17" fill="rgba(16, 34, 52, 0.75)" stroke="rgba(108, 186, 255, 0.55)" />
+                <text x="70" y="40" font-size="14" font-weight="600" fill="#D5ECFF" text-anchor="middle">Steam Level {escape(str(profile.level) if profile.level is not None else '??')}</text>
+              </g>
+              <text x="0" y="92" font-size="14" fill="#A7C3DB">{escape(info_line)}</text>
+              <text x="0" y="118" font-size="14" fill="#7FB7DA">{escape(meta_line)}</text>
+              <text x="0" y="144" font-size="14" fill="#66C0F4">{escape(activity_line)}</text>
+            </g>
+            <g transform="translate(48 248)">
+              <rect x="0" y="0" width="188" height="124" rx="24" fill="rgba(16, 31, 46, 0.62)" stroke="rgba(120, 194, 255, 0.28)" />
+              <text x="22" y="34" font-size="14" font-weight="600" fill="#7FCBFF">Featured badges</text>
+              <text x="22" y="60" font-size="13" fill="#C7E7FF">{badge_lines}</text>
+            </g>
+            <g transform="translate(248 176)">
+              <rect width="660" height="200" rx="30" fill="rgba(12, 26, 40, 0.78)" stroke="rgba(120, 194, 255, 0.25)" />
+              <text x="32" y="40" font-size="16" font-weight="600" fill="#7FCBFF">Recent playtime</text>
+              <g transform="translate(32 84)">
+                {progress_section}
+              </g>
+            </g>
+            <text x="248" y="332" font-size="13" fill="rgba(199, 231, 255, 0.65)">Updated {escape(updated_label)}</text>
+            <a href="{escape(profile.profileurl)}" target="_blank" rel="noreferrer">
+              <rect x="792" y="48" width="120" height="40" rx="16" fill="rgba(18, 42, 60, 0.75)" stroke="rgba(120, 194, 255, 0.4)" />
+              <text x="852" y="74" font-size="14" font-weight="600" fill="#F5FAFF" text-anchor="middle">View Profile</text>
+            </a>
           </g>
-          <g transform="translate(24 136)" font-family="'Segoe UI', 'Inter', sans-serif">
-            <rect width="312" height="52" rx="16" fill="rgba(15, 29, 44, 0.7)" stroke="rgba(102,192,244,0.3)" />
-            <text x="20" y="24" font-size="13" font-weight="600" fill="#66C0F4">Recent playtime</text>
-            <text x="20" y="36" font-size="12" fill="#B5D8F2">
-              <tspan x="20" dy="0">{escape(recent[0].name)} — {human_minutes(recent[0].playtime_2weeks)}</tspan>
-              {recent_lines}
-            </text>
-          </g>
-          <g transform="translate(24 196)" font-family="'Segoe UI', 'Inter', sans-serif">
-            <rect width="312" height="52" rx="16" fill="rgba(12, 24, 36, 0.65)" stroke="rgba(102,192,244,0.3)" />
-            <text x="20" y="24" font-size="13" font-weight="600" fill="#66C0F4">Badge highlights</text>
-            <text x="20" y="36" font-size="12" fill="#B5D8F2">
-              <tspan x="20" dy="0">{escape(badge_label(badges[0]))}</tspan>
-              {badge_lines}
-            </text>
-          </g>
-          <a href="{escape(profile.profileurl)}" target="_blank" rel="noreferrer">
-            <rect x="260" y="30" width="76" height="30" rx="10" fill="rgba(18, 42, 60, 0.75)" stroke="rgba(102,192,244,0.4)" />
-            <text x="298" y="50" font-family="'Segoe UI', 'Inter', sans-serif" font-size="11" font-weight="600" fill="#F5FAFF" text-anchor="middle">View</text>
-          </a>
         </svg>
         """
     ).strip()
@@ -396,6 +492,9 @@ def save_profile_cache(profile: SteamProfile, path: str) -> None:
         "personastate": profile.personastate,
         "personastateflags": profile.personastateflags,
         "level": profile.level,
+        "gameextrainfo": profile.gameextrainfo,
+        "currentlyplaying_gameid": profile.currentlyplaying_gameid,
+        "fetched_at": profile.fetched_at,
         "badge_highlights": [
             {"name": badge.name, "level": badge.level}
             for badge in profile.badge_highlights
