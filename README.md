@@ -66,7 +66,7 @@
 ```
 
 <table>
-    <td valign="top" style="padding-left: 1.5rem;">
+    <td>
       <pre><code class="language-powershell">
 
 
