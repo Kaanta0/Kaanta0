@@ -115,8 +115,8 @@
     <br>
     <br>
     <p align="left" style="clear: both;">
-        <a href = "https://youtu.be/UZGUqbyKwO8">
-            <img  src ="img/lily_SB.png" width="240" align="right">
+        <a href = "https://youtu.be/2L3OCqW76hE">
+            <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="240" align="right">
         </a>
         <b><br><br>🎶Dawn in The Adan | Ichiko Aoba🎶🆙</b>
     </p>
