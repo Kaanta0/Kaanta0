@@ -110,7 +110,6 @@
         <b>🎵Lily's Atelier | Stellar Blade🎵</b>
     </p>
     <br>
-    <br>
     <p align="left">
     <a href="https://youtu.be/zdIc3CHvmzo">
         <img src="https://i.ytimg.com/vi/zdIc3CHvmzo/hqdefault.jpg" width="240" align="right">
