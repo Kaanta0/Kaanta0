@@ -36,18 +36,6 @@
   </a>
   <br>
   <br>
-  <!-- Steam showcase generated via scripts/update_steam_showcase.py -->
-  <!-- Refresh with: python3 scripts/update_steam_showcase.py --vanity <steam-vanity> --cache data/steam-profile-cache.json -->
-  <a href="https://steamcommunity.com/id/lopobia" style="text-decoration: none;">
-    <img
-      src="img/steam-profile-showcase.svg"
-      alt="Steam profile showcase"
-      width="320"
-      style="max-width: 100%; border-radius: 20px; box-shadow: 0 18px 32px rgba(6, 10, 18, 0.55);"
-    />
-  </a>
-  <br>
-  <br>
   <a href="https://github.com/kittinan/spotify-github-profile">
     <img
       src="https://spotify-github-profile.kittinanx.com/api/view?uid=3h1cg9ljpxi05octh0swt44cv&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false"
@@ -59,6 +47,18 @@
 </div>
 
 <h2 align="center">👁️‍🗨️ About Me 👁️‍🗨️</h2>
+
+<div style="margin: 2rem 0;">
+  <!-- Steam showcase generated via scripts/update_steam_showcase.py -->
+  <!-- Refresh with: python3 scripts/update_steam_showcase.py --vanity <steam-vanity> --cache data/steam-profile-cache.json -->
+  <a href="https://steamcommunity.com/id/lopobia" style="text-decoration: none; display: inline-block; width: 100%;">
+    <img
+      src="img/steam-profile-showcase.svg"
+      alt="Steam profile showcase"
+      style="display: block; width: 100%; height: auto; max-width: 100%; border-radius: 20px; box-shadow: 0 18px 32px rgba(6, 10, 18, 0.55);"
+    />
+  </a>
+</div>
 
 ```zsh
 ┌─[MotherSphere@Colony] - [~]
