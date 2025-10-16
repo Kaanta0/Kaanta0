@@ -74,7 +74,7 @@
     <br>
     <br>
     <br>
-    <p align="right">
+    <p align="right" style="clear: both;">
         <a href = "https://youtu.be/4biZQR2ov0s">
             <img src = "img/LilysAtelier.png" width = "240" align = "left">
         </a>
@@ -82,7 +82,7 @@
     </p>
     <br>
     <br>
-    <p align="left">
+    <p align="left" style="clear: both;">
         <a href = "https://youtu.be/2L3OCqW76hE">
             <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="240" align="right">
         </a>
@@ -90,20 +90,23 @@
     </p>
     <br>
     <br>
-    <p align="right">
+    <p align="right" style="clear: both;">
         <a href="https://youtu.be/AT5fDDKWMok">
             <img src="https://i.ytimg.com/vi/AT5fDDKWMok/maxresdefault.jpg" width="240" align="left">
         </a>
-        <b><br>🎶17 Sekibetsu | GATE🎶💌</b></p>
-    <br>
-    <br>
-    <p align="left">
-    <a href="https://youtu.be/zdIc3CHvmzo">
-        <img src="https://i.ytimg.com/vi/zdIc3CHvmzo/hqdefault.jpg" width="240" align="right">
-    </a>
-    <b><br><br>💘Wu Yun Ta Na | Pulse 💕</b>
+        <b><br>🎶17 Sekibetsu | GATE🎶💌</b>
     </p>
-    <p align="right">
+    <br>
+    <br>
+    <p align="left" style="clear: both;">
+        <a href="https://youtu.be/zdIc3CHvmzo">
+            <img src="https://i.ytimg.com/vi/zdIc3CHvmzo/hqdefault.jpg" width="240" align="right">
+        </a>
+        <b><br><br>💘Wu Yun Ta Na | Pulse 💕</b>
+    </p>
+    <br>
+    <br>
+    <p align="right" style="clear: both;">
         <a href = "https://youtu.be/4biZQR2ov0s">
             <img src = "img/LilysAtelier.png" width = "240" align = "left">
         </a>
@@ -111,7 +114,7 @@
     </p>
     <br>
     <br>
-    <p align="left">
+    <p align="left" style="clear: both;">
         <a href = "https://youtu.be/2L3OCqW76hE">
             <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="240" align="right">
         </a>
