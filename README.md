@@ -74,51 +74,74 @@
     <br>
     <br>
     <br>
-    <p align="right">
-        <a href = "https://youtu.be/4biZQR2ov0s">
-            <img src = "img/LilysAtelier.png" width = "240" align = "left">
-        </a>
-        <b><br><br>🎵Lily's Atelier | Stellar Blade🎵</b>
-    </p>
-    <br>
-    <br>
-    <p align="left">
-        <a href = "https://youtu.be/2L3OCqW76hE">
-            <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="240" align="right">
-        </a>
-        <b><br><br>🎶Dawn in The Adan | Ichiko Aoba🎶🆙</b>
-    </p>
-    <br>
-    <br>
-    <p align="right">
-        <a href="https://youtu.be/AT5fDDKWMok">
-            <img src="https://i.ytimg.com/vi/AT5fDDKWMok/maxresdefault.jpg" width="240" align="left">
-        </a>
-        <b><br>🎶17 Sekibetsu | GATE🎶💌</b></p>
-    <br>
-    <br>
-    <p align="left">
-    <a href="https://youtu.be/zdIc3CHvmzo">
-        <img src="https://i.ytimg.com/vi/zdIc3CHvmzo/hqdefault.jpg" width="240" align="right">
-    </a>
-    <b><br><br>💘Wu Yun Ta Na | Pulse 💕</b>
-    </p>
-    <p align="right">
-        <a href = "https://youtu.be/4biZQR2ov0s">
-            <img src = "img/LilysAtelier.png" width = "240" align = "left">
-        </a>
-        <b><br><br>🎵Lily's Atelier | Stellar Blade🎵</b>
-    </p>
-    <br>
-    <br>
-    <p align="left">
-        <a href = "https://youtu.be/2L3OCqW76hE">
-            <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="240" align="right">
-        </a>
-        <b><br><br>🎶Dawn in The Adan | Ichiko Aoba🎶🆙</b>
-    </p>
-    <br>
-    <br>
+    <div
+      style="display: flex; align-items: center; justify-content: flex-end; gap: 1rem; margin: 1.5rem 0;"
+    >
+      <div style="font-weight: 700; text-align: right;">🎵Lily's Atelier | Stellar Blade🎵</div>
+      <a href="https://youtu.be/4biZQR2ov0s">
+        <img src="img/LilysAtelier.png" width="240" style="border-radius: 12px;" alt="Lily's Atelier thumbnail" />
+      </a>
+    </div>
+    <div
+      style="display: flex; align-items: center; justify-content: flex-start; gap: 1rem; margin: 1.5rem 0;"
+    >
+      <a href="https://youtu.be/2L3OCqW76hE">
+        <img
+          src="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg"
+          width="240"
+          style="border-radius: 12px;"
+          alt="Dawn in The Adan thumbnail"
+        />
+      </a>
+      <div style="font-weight: 700;">🎶Dawn in The Adan | Ichiko Aoba🎶🆙</div>
+    </div>
+    <div
+      style="display: flex; align-items: center; justify-content: flex-end; gap: 1rem; margin: 1.5rem 0;"
+    >
+      <div style="font-weight: 700; text-align: right;">🎶17 Sekibetsu | GATE🎶💌</div>
+      <a href="https://youtu.be/AT5fDDKWMok">
+        <img
+          src="https://i.ytimg.com/vi/AT5fDDKWMok/maxresdefault.jpg"
+          width="240"
+          style="border-radius: 12px;"
+          alt="17 Sekibetsu thumbnail"
+        />
+      </a>
+    </div>
+    <div
+      style="display: flex; align-items: center; justify-content: flex-start; gap: 1rem; margin: 1.5rem 0;"
+    >
+      <a href="https://youtu.be/zdIc3CHvmzo">
+        <img
+          src="https://i.ytimg.com/vi/zdIc3CHvmzo/hqdefault.jpg"
+          width="240"
+          style="border-radius: 12px;"
+          alt="Wu Yun Ta Na thumbnail"
+        />
+      </a>
+      <div style="font-weight: 700;">💘Wu Yun Ta Na | Pulse 💕</div>
+    </div>
+    <div
+      style="display: flex; align-items: center; justify-content: flex-end; gap: 1rem; margin: 1.5rem 0;"
+    >
+      <div style="font-weight: 700; text-align: right;">🎵Lily's Atelier | Stellar Blade🎵</div>
+      <a href="https://youtu.be/4biZQR2ov0s">
+        <img src="img/LilysAtelier.png" width="240" style="border-radius: 12px;" alt="Lily's Atelier thumbnail" />
+      </a>
+    </div>
+    <div
+      style="display: flex; align-items: center; justify-content: flex-start; gap: 1rem; margin: 1.5rem 0;"
+    >
+      <a href="https://youtu.be/2L3OCqW76hE">
+        <img
+          src="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg"
+          width="240"
+          style="border-radius: 12px;"
+          alt="Dawn in The Adan thumbnail"
+        />
+      </a>
+      <div style="font-weight: 700;">🎶Dawn in The Adan | Ichiko Aoba🎶🆙</div>
+    </div>
 </div>
 
 <br>
