@@ -14,13 +14,13 @@
     />
   </p>
 </div>
-
-<div style="margin: 1.5rem 0;">
+<a>
   <img
     src="https://media1.tenor.com/m/dMFZ3Ymy9PIAAAAC/stellar-blade-eve.gif"
     width="300"
     alt="Stellar Blade Eve"
   />
+</a>
 </div>
 <a href="https://github.com/kittinan/spotify-github-profile">
   <img
