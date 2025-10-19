@@ -20,6 +20,12 @@
     width="300"
     alt="Stellar Blade Eve"
   />
+  <img
+    src="https://spotify-github-profile.kittinanx.com/api/view?uid=3h1cg9ljpxi05octh0swt44cv&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false"
+    alt="Spotify profile"
+    width="240"
+    height="350"
+  />
 </a>
 </div>
 <br>
