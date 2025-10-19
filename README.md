@@ -44,64 +44,43 @@
 
 
 
+<!-- Steam Mini Profile (affichage statique) -->
 
+<div align="center" style="width:260px; border-radius:10px; overflow:hidden; box-shadow:0 0 8px rgba(0,0,0,0.3); font-family: 'Segoe UI', sans-serif; background-color:#1b2838; color:#c7d5e0;">
 
+  <!-- Background -->
+  <div style="position:relative;">
+    <img src="https://avatars.akamai.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg" width="100%" style="filter:blur(8px) brightness(0.6); height:100px; object-fit:cover;">
+    <div style="position:absolute; top:0; left:0; width:100%; height:100px; background:rgba(0,0,0,0.3);"></div>
+  </div>
 
-# Steam Mini Profile Loader
+  <!-- Avatar + info -->
+  <div style="display:flex; align-items:center; padding:10px; margin-top:-40px;">
+    <img src="https://avatars.akamai.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg" width="64" height="64" style="border-radius:8px; border:2px solid #2a475e; margin-right:10px;">
+    <div>
+      <div style="font-size:1.1em; font-weight:bold;">Loading</div>
+      <div style="color:#8f98a0;">Offline</div>
+    </div>
+  </div>
 
-This document dynamically loads and displays a Steam mini profile using jQuery and a CORS proxy.
+  <hr style="border:0; border-top:1px solid #2a475e; margin:0;">
 
----
+  <!-- Badge + Steam Level -->
+  <div style="padding:10px; display:flex; justify-content:space-around;">
 
-## HTML Structure
+    <div style="text-align:center;">
+      <img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/206440/67e23690ce7aad7e097d828463fb0adf4932a5ab.png" width="48" height="48"><br>
+      <span style="font-weight:bold;">Unknown</span><br>
+      <span style="color:#8f98a0;">? XP</span>
+    </div>
 
-```html
-<!DOCTYPE html>
-<html>
+    <div style="text-align:center;">
+      <div style="background:#2a475e; border-radius:50%; width:48px; height:48px; display:flex; align-items:center; justify-content:center; margin:auto; font-weight:bold; color:#fff;">?</div>
+      <div style="margin-top:4px; font-weight:bold;">Steam Level</div>
+    </div>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex, nofollow">
-<meta name="referrer" content="no-referrer">
-
-<head>
-  <link async rel="preload" as="style"
-    href="https://community.cloudflare.steamstatic.com/public/shared/css/shared_global.css"
-    onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="https://community.cloudflare.steamstatic.com/public/shared/css/shared_global.css">
-  </noscript>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <script defer async>
-    $(function () {
-      let searchParams = new URLSearchParams(window.location.search);
-      let corsHost = "https://cors.k3k.dev/api/hello";
-      let steamId = searchParams.get('accountId') ? searchParams.get('accountId') : '238158335';
-      let interactive = searchParams.get('interactive') ? searchParams.get('interactive') : false;
-      let vanityId = searchParams.get('vanityId') ? searchParams.get('vanityId') : '';
-      let language = searchParams.get('lang') ? searchParams.get('lang') : 'english';
-      let featuredGame = searchParams.get('appId') ? searchParams.get('appId') : '';
-      let centered = searchParams.get('centered') ? searchParams.get('centered') : false;
-
-      let corsURL = `${corsHost}?url=https%3A%2F%2Fsteamcommunity.com%2Fminiprofile%2F${steamId}&l=${language}&appId=${featuredGame}`;
-      let steamURL = `https://steamcommunity.com/id/${vanityId}`;
-      
-      if (steamId === 'YOUR_ACCOUNTID_HERE') {
-        steamId = '238158335';
-      }
-
-      if (centered == 'true') {
-        const style = document.createElement
-
-
-
-
-
-
-
+  </div>
+</div>
 
 
 
