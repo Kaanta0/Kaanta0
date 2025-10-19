@@ -29,7 +29,7 @@
 >
   <a href="https://discord.com/users/503306069884534796">
     <img
-      src="https://lanyard.cnrad.dev/api/503306069884534796?theme=light&bg=ad1f25&animated=true&animatedDecoration=true&hideDiscrim=true&borderRadius=30px&idleMessage=Doing%20Very%20Important%20Stuff%20!"
+      src="https://lanyard.cnrad.dev/api/503306069884534796?theme=dark&bg=ad1f25&animated=true&animatedDecoration=true&hideDiscrim=true&borderRadius=30px&idleMessage=Doing%20Very%20Important%20Stuff%20!"
       alt="Discord Presence"
       width="320"
     />
