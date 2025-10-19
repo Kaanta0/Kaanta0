@@ -18,6 +18,61 @@
   </p>
 </div>
 
+<!-- Glowing Terminal Panel (Image + Terminal) -->
+<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 25px; flex-wrap: wrap; margin-top: 20px;">
+
+  <!-- 🐇 Left image -->
+  <img src="https://media1.tenor.com/m/dMFZ3Ymy9PIAAAAC/stellar-blade-eve.gif" width="250" alt="Rabbit Avatar" style="border-radius: 15px; box-shadow: 0 0 15px #0ff;" loading="lazy">
+
+  <!-- 💻 Right terminal -->
+  <div style="
+    background: radial-gradient(circle at top left, #0a0a0a, #111);
+    color: #d1f7ff;
+    font-family: 'Courier New', monospace;
+    padding: 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.3);
+    text-align: left;
+    max-width: 480px;
+    white-space: pre-wrap;
+    border: 1px solid rgba(0,255,255,0.2);
+  ">
+
+mothersphere@github
+─────────────────────────────
+🌌 OS: SteamOS (Arch-based)
+💻 Host: i.MX8 Embedded Linux
+🧠 Kernel: 6.x (custom build)
+🕓 Uptime: ∞ memories
+📦 Packages: countless
+🐚 Shell: bash
+🖥️  Resolution: 1920x1080 (EGLFS)
+🎨 WM: none (pure soul)
+🧩 Terminal: Markdown
+⚙️  CPU: Human Cortex (∞ Threads)
+🎮 GPU: Imagination + Passion
+💾 Memory: endless nostalgia
+
+💫 Personal Info
+─────────────────────────────
+👤 Name: mothersphere
+🌍 Origin: the digital void
+💬 Languages: Python, C++, Bash
+🧑‍💻 Occupation: Embedded Linux developer
+🔧 Focus: PyQt5 • MQTT • TLS • i.MX8 optimization
+🎧 Currently: Listening to stellar beats
+🪐 Hobby: Building, dreaming, feeling
+🎮 Favorite Game: Stellar Blade
+🌐 Website: https://github.com/mothersphere
+🖋️ Motto: “Precision. Purpose. Poetry.”
+💭 Quote: "May your memories live on, forever."
+🔮 Aesthetic: Cosmic minimalism
+📫 Contact: mothersphere@digitalrealm.dev
+🕯️ Mood: Tranquil yet infinite
+
+  </div>
+</div>
+
 <!-- Hero: GIF + Spotify (side-by-side, responsive) -->
 <div style="display:flex;justify-content:center;align-items:center;gap:20px;margin-top:10px;flex-wrap:wrap;">
   <img
