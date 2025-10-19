@@ -46,42 +46,42 @@
 
   <!-- Steam Mini Profile (affichage statique) -->
   
-  <div align="center" style="width:260px; border-radius:10px; overflow:hidden; box-shadow:0 0 8px rgba(0,0,0,0.3); font-family: 'Segoe UI', sans-serif; background-color:#1b2838; color:#c7d5e0;">
-  
-    <!-- Background -->
-    <div style="position:relative;">
-      <img src="https://avatars.akamai.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg" width="100%" style="filter:blur(8px) brightness(0.6); height:100px; object-fit:cover;">
-      <div style="position:absolute; top:0; left:0; width:100%; height:100px; background:rgba(0,0,0,0.3);"></div>
-    </div>
-  
-    <!-- Avatar + info -->
-    <div style="display:flex; align-items:center; padding:10px; margin-top:-40px;">
-      <img src="https://avatars.akamai.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg" width="64" height="64" style="border-radius:8px; border:2px solid #2a475e; margin-right:10px;">
-      <div>
-        <div style="font-size:1.1em; font-weight:bold;">Loading</div>
-        <div style="color:#8f98a0;">Offline</div>
-      </div>
-    </div>
-  
-    <hr style="border:0; border-top:1px solid #2a475e; margin:0;">
-  
-    <!-- Badge + Steam Level -->
-    <div style="padding:10px; display:flex; justify-content:space-around;">
-  
-      <div style="text-align:center;">
-        <img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/206440/67e23690ce7aad7e097d828463fb0adf4932a5ab.png" width="48" height="48"><br>
-        <span style="font-weight:bold;">Unknown</span><br>
-        <span style="color:#8f98a0;">? XP</span>
-      </div>
-  
-      <div style="text-align:center;">
-        <div style="background:#2a475e; border-radius:50%; width:48px; height:48px; display:flex; align-items:center; justify-content:center; margin:auto; font-weight:bold; color:#fff;">?</div>
-        <div style="margin-top:4px; font-weight:bold;">Steam Level</div>
-      </div>
-  
-    </div>
+<div align="center" style="width:260px; border-radius:10px; overflow:hidden; box-shadow:0 0 8px rgba(0,0,0,0.3); font-family: 'Segoe UI', sans-serif; background-color:#1b2838; color:#c7d5e0;">
+
+<!-- Background -->
+<div style="position:relative;">
+  <img src="https://avatars.akamai.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg" width="100%" style="filter:blur(8px) brightness(0.6); height:100px; object-fit:cover;">
+  <div style="position:absolute; top:0; left:0; width:100%; height:100px; background:rgba(0,0,0,0.3);"></div>
+</div>
+
+<!-- Avatar + info -->
+<div style="display:flex; align-items:center; padding:10px; margin-top:-40px;">
+  <img src="https://avatars.akamai.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg" width="64" height="64" style="border-radius:8px; border:2px solid #2a475e; margin-right:10px;">
+  <div>
+    <div style="font-size:1.1em; font-weight:bold;">Loading</div>
+    <div style="color:#8f98a0;">Offline</div>
   </div>
-  
+</div>
+
+<hr style="border:0; border-top:1px solid #2a475e; margin:0;">
+
+<!-- Badge + Steam Level -->
+<div style="padding:10px; display:flex; justify-content:space-around;">
+
+  <div style="text-align:center;">
+    <img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/206440/67e23690ce7aad7e097d828463fb0adf4932a5ab.png" width="48" height="48"><br>
+    <span style="font-weight:bold;">Unknown</span><br>
+    <span style="color:#8f98a0;">? XP</span>
+  </div>
+
+  <div style="text-align:center;">
+    <div style="background:#2a475e; border-radius:50%; width:48px; height:48px; display:flex; align-items:center; justify-content:center; margin:auto; font-weight:bold; color:#fff;">?</div>
+    <div style="margin-top:4px; font-weight:bold;">Steam Level</div>
+  </div>
+
+  </div>
+</div>
+
 
 
 
