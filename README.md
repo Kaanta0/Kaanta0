@@ -83,7 +83,7 @@ mothersphere@github
 🕯️ Mood: Tranquil yet infinite
 ``` |
 |---|---|
-
+```
 ```html
 <!-- Music Picks -->
 <h3 align="center">🎵 Current Picks</h3>
