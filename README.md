@@ -15,7 +15,7 @@
   </p>
 </div>
 
-<div align="center" style="margin: 1.5rem 0;">
+<div align="left" style="margin: 1.5rem 0;">
   <img
     src="https://media1.tenor.com/m/dMFZ3Ymy9PIAAAAC/stellar-blade-eve.gif"
     width="300"
