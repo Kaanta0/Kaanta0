@@ -170,62 +170,51 @@ mothersphere@github
 
 <h2 align="center">📉 GitHub Stats</h2>
 
-<div align="center" style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
-  <a href="https://github-readme-stats.vercel.app" rel="noreferrer">
+<div align="center">
+  <a href="https://github-readme-stats.vercel.app">
     <img
-      style="max-width: 480px; width: 100%;"
+      width="49%"
       alt="Stats"
       src="https://github-readme-stats.vercel.app/api?username=mothersphere&count_private=true&theme=neon&show_icons=true&show=reviews,prs_merged,prs_merged_percentage&rank_icon=github&hide_border=false"
-      loading="lazy"
     />
   </a>
-  <a href="https://github-readme-streak-stats.herokuapp.com" rel="noreferrer">
+  <a href="https://github-readme-streak-stats.herokuapp.com">
     <img
-      style="max-width: 480px; width: 100%;"
+      width="49%"
       alt="Streak Stats"
       src="https://github-readme-streak-stats.herokuapp.com/?user=mothersphere&theme=neon&hide_border=false&date_format=%5BY%20%5DM%20j"
-      loading="lazy"
     />
   </a>
-</div>
-
-<div align="center" style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:10px;">
-  <a href="https://github.com/ryo-ma/github-profile-trophy" rel="noreferrer">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img
-      style="max-width: 520px; width: 100%;"
+      width="50%"
+      align="left"
       alt="Trophy"
       src="https://github-profile-trophy.vercel.app/?username=mothersphere&theme=radical&row=4&column=4"
-      loading="lazy"
     />
-  </a>
-  <a href="https://github-readme-stats.vercel.app" rel="noreferrer">
     <img
-      style="max-width: 420px; width: 100%;"
+      width="41%"
+      align="right"
       alt="Top languages"
       src="https://github-readme-stats.vercel.app/api/top-langs/?username=mothersphere&hide_border=false&theme=neon&layout=compact&hide_progress=false&hide=jupyter%20notebook&langs_count=6"
-      loading="lazy"
+    />
+  </a>
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img
+      width="100%"
+      alt="Activity graph"
+      src="https://github-readme-activity-graph.vercel.app/graph?username=mothersphere&theme=redical"
+    />
+  </a>
+  <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
+    <img
+      width="100%"
+      alt="Profile summary"
+      src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mothersphere&theme=2077"
     />
   </a>
 </div>
 
-<div align="center" style="margin-top:10px;">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph" rel="noreferrer">
-    <img
-      style="max-width: 100%;"
-      alt="Activity graph"
-      src="https://github-readme-activity-graph.vercel.app/graph?username=mothersphere&theme=redical"
-      loading="lazy"
-    />
-  </a>
-  <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards" rel="noreferrer">
-    <img
-      style="max-width: 100%;"
-      alt="Profile summary"
-      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mothersphere&theme=2077"
-      loading="lazy"
-    />
-  </a>
-</div>
 
 <h2 align="center">📝 Contact Me 📝</h2>
 
