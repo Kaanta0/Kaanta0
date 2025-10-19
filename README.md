@@ -19,7 +19,7 @@
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 10px;">
   <img
     src="https://media1.tenor.com/m/dMFZ3Ymy9PIAAAAC/stellar-blade-eve.gif"
-    width="350"
+    width="310"
     alt="Stellar Blade Eve"
   />
   <img
