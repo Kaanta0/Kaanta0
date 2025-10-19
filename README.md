@@ -51,34 +51,39 @@
 
 <h2 align="center">👁️‍🗨️ About Me 👁️‍🗨️</h2>
 
-<div align="center" style="margin: 2rem 0;">
+<!-- About Me container -->
+<div align="center" style="margin: 2rem 0; display:flex; flex-direction:column; align-items:center; gap:20px;">
+
+  <!-- Your GIF -->
   <img src="img/go_SB.gif" width="500" alt="Stellar Blade go animation" loading="lazy" />
-</div>
 
-<!-- Terminal-like profile card -->
-<div align="center" style="display:flex; align-items:center; justify-content:center; gap:25px; flex-wrap:wrap; margin: 16px 0 24px;">
-  <!-- Left image (swap with your rabbit/avatar if you prefer) -->
-  <img
-    src="https://media1.tenor.com/m/dMFZ3Ymy9PIAAAAC/stellar-blade-eve.gif"
-    width="250"
-    alt="Avatar"
-    style="border-radius: 15px; box-shadow: 0 0 15px #0ff;"
-    loading="lazy"
-  />
+  <!-- Terminal-like profile card -->
+  <div style="display:flex; align-items:center; justify-content:center; gap:25px; flex-wrap:wrap; max-width:1000px;">
 
-  <!-- Glowing terminal panel -->
-  <div style="
-    background: radial-gradient(circle at top left, #0a0a0a, #111);
-    color: #d1f7ff;
-    font-family: 'Courier New', monospace;
-    padding: 20px 25px;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0,255,255,0.3);
-    text-align: left;
-    max-width: 520px;
-    white-space: pre-wrap;
-    border: 1px solid rgba(0,255,255,0.2);
-  ">
+    <!-- Left image (swap URL if you prefer a rabbit/avatar) -->
+    <img
+      src="https://media1.tenor.com/m/dMFZ3Ymy9PIAAAAC/stellar-blade-eve.gif"
+      width="250"
+      alt="Avatar"
+      style="border-radius:15px; box-shadow:0 0 15px rgba(0,255,255,.6);"
+      loading="lazy"
+    />
+
+    <!-- Glowing terminal panel (pre keeps formatting solid on GitHub) -->
+    <div style="
+      background:#0b0b0b;
+      background-image: radial-gradient(circle at 12% 8%, rgba(0,255,255,0.12), transparent 40%);
+      color:#d1f7ff;
+      font-family:'Courier New', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+      padding:20px 24px;
+      border-radius:15px;
+      box-shadow:0 0 20px rgba(0,255,255,0.25);
+      border:1px solid rgba(0,255,255,0.25);
+      max-width:520px;
+      width:100%;
+      text-align:left;
+    ">
+      <pre style="margin:0; white-space:pre-wrap;">
 mothersphere@github
 ─────────────────────────────
 🌌 OS: SteamOS (Arch-based)
@@ -110,8 +115,11 @@ mothersphere@github
 🔮 Aesthetic: Cosmic minimalism
 📫 Contact: mothersphere@digitalrealm.dev
 🕯️ Mood: Tranquil yet infinite
+      </pre>
+    </div>
   </div>
 </div>
+
 
 <!-- Music Picks (cards, no duplicate entries) -->
 <h3 align="center">🎵 Current Picks</h3>
