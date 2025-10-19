@@ -84,7 +84,6 @@ mothersphere@github
 ``` |
 |---|---|
 ```
-```html
 <!-- Music Picks -->
 <h3 align="center">🎵 Current Picks</h3>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:16px 0;">
