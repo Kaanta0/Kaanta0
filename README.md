@@ -69,7 +69,7 @@
       loading="lazy"
     />
 
-    <!-- Glowing terminal panel (pre keeps formatting solid on GitHub) -->
+    <!-- Glowing terminal panel -->
     <div style="
       background:#0b0b0b;
       background-image: radial-gradient(circle at 12% 8%, rgba(0,255,255,0.12), transparent 40%);
@@ -120,8 +120,7 @@ mothersphere@github
   </div>
 </div>
 
-
-<!-- Music Picks (cards, no duplicate entries) -->
+<!-- Music Picks -->
 <h3 align="center">🎵 Current Picks</h3>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:16px 0;">
   <a href="https://youtu.be/4biZQR2ov0s" style="text-decoration:none;color:inherit;" rel="noreferrer">
