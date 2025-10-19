@@ -36,7 +36,84 @@
   </a>
   <br>
   <br>
-  <iframe src="https://gamer2810.github.io/steam-miniprofile/?accountId=76561198052721313&appId=3489700" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
+
+# Steam Mini Profile Loader
+
+This document dynamically loads and displays a Steam mini profile using jQuery and a CORS proxy.
+
+---
+
+## HTML Structure
+
+```html
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+
+<head>
+  <link async rel="preload" as="style"
+    href="https://community.cloudflare.steamstatic.com/public/shared/css/shared_global.css"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://community.cloudflare.steamstatic.com/public/shared/css/shared_global.css">
+  </noscript>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script defer async>
+    $(function () {
+      let searchParams = new URLSearchParams(window.location.search);
+      let corsHost = "https://cors.k3k.dev/api/hello";
+      let steamId = searchParams.get('accountId') ? searchParams.get('accountId') : '238158335';
+      let interactive = searchParams.get('interactive') ? searchParams.get('interactive') : false;
+      let vanityId = searchParams.get('vanityId') ? searchParams.get('vanityId') : '';
+      let language = searchParams.get('lang') ? searchParams.get('lang') : 'english';
+      let featuredGame = searchParams.get('appId') ? searchParams.get('appId') : '';
+      let centered = searchParams.get('centered') ? searchParams.get('centered') : false;
+
+      let corsURL = `${corsHost}?url=https%3A%2F%2Fsteamcommunity.com%2Fminiprofile%2F${steamId}&l=${language}&appId=${featuredGame}`;
+      let steamURL = `https://steamcommunity.com/id/${vanityId}`;
+      
+      if (steamId === 'YOUR_ACCOUNTID_HERE') {
+        steamId = '238158335';
+      }
+
+      if (centered == 'true') {
+        const style = document.createElement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <br>
   <br>
   <a href="https://github.com/kittinan/spotify-github-profile">
