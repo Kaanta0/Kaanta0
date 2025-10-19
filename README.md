@@ -85,48 +85,66 @@ mothersphere@github
 |---|---|
 ```
 <!-- Music Picks -->
-<h3 align="center">🎵 Current Picks</h3>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:16px 0;">
-  <a href="https://youtu.be/4biZQR2ov0s" style="text-decoration:none;color:inherit;" rel="noreferrer">
-    <div style="display:flex;gap:12px;align-items:center;border:1px solid #eee;border-radius:12px;padding:10px;">
-      <img src="img/LilysAtelier.png" width="120" alt="Lily's Atelier | Stellar Blade" style="border-radius:8px;" loading="lazy" />
-      <div>
-        <strong>🎵 Lily's Atelier | Stellar Blade</strong>
-        <div style="opacity:.8;font-size:.9rem;">OST</div>
-      </div>
-    </div>
-  </a>
 
-  <a href="https://youtu.be/2L3OCqW76hE" style="text-decoration:none;color:inherit;" rel="noreferrer">
-    <div style="display:flex;gap:12px;align-items:center;border:1px solid #eee;border-radius:12px;padding:10px;">
-      <img src="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="120" height="80" alt="Dawn in The Adan | Ichiko Aoba" style="object-fit:cover;border-radius:8px;" loading="lazy" />
-      <div>
-        <strong>🎶 Dawn in The Adan | Ichiko Aoba</strong>
-        <div style="opacity:.8;font-size:.9rem;">Ambient / Folk</div>
-      </div>
-    </div>
-  </a>
-
-  <a href="https://youtu.be/AT5fDDKWMok" style="text-decoration:none;color:inherit;" rel="noreferrer">
-    <div style="display:flex;gap:12px;align-items:center;border:1px solid #eee;border-radius:12px;padding:10px;">
-      <img src="https://i.ytimg.com/vi/AT5fDDKWMok/maxresdefault.jpg" width="120" height="80" alt="17 Sekibetsu | GATE" style="object-fit:cover;border-radius:8px;" loading="lazy" />
-      <div>
-        <strong>🎶 17 Sekibetsu | GATE</strong>
-        <div style="opacity:.8;font-size:.9rem;">J-Alt</div>
-      </div>
-    </div>
-  </a>
-
-  <a href="https://youtu.be/zdIc3CHvmzo" style="text-decoration:none;color:inherit;" rel="noreferrer">
-    <div style="display:flex;gap:12px;align-items:center;border:1px solid #eee;border-radius:12px;padding:10px;">
-      <img src="https://i.ytimg.com/vi/zdIc3CHvmzo/hqdefault.jpg" width="120" height="80" alt="Wu Yun Ta Na | Pulse" style="object-fit:cover;border-radius:8px;" loading="lazy" />
-      <div>
-        <strong>💘 Wu Yun Ta Na | Pulse</strong>
-        <div style="opacity:.8;font-size:.9rem;">Alt Pop</div>
-      </div>
-    </div>
-  </a>
+<br>
+<br>
+<br>
+<br>
+<p align="right" style="clear: both;">
+    <a href = "https://youtu.be/4biZQR2ov0s">
+        <img src = "img/LilysAtelier.png" width = "240" align = "left">
+    </a>
+    <b><br><br>🎵Lily's Atelier | Stellar Blade🎵</b>
+</p>
+<br>
+<br>
+<p align="left" style="clear: both;">
+    <a href = "https://youtu.be/2L3OCqW76hE">
+        <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="240" height="150" align="right">
+    </a>
+    <b><br><br>🎶Dawn in The Adan | Ichiko Aoba🎶🆙</b>
+</p>
+<br>
+<br>
+<p align="right" style="clear: both;">
+    <a href="https://youtu.be/AT5fDDKWMok">
+        <img src="https://i.ytimg.com/vi/AT5fDDKWMok/maxresdefault.jpg" width="240" height="150" align="left">
+    </a>
+    <b><br>🎶17 Sekibetsu | GATE🎶💌</b>
+</p>
+<br>
+<br>
+<p align="left" style="clear: both;">
+    <a href="https://youtu.be/zdIc3CHvmzo">
+        <img src="https://i.ytimg.com/vi/zdIc3CHvmzo/hqdefault.jpg" width="240" height="150" align="right">
+    </a>
+    <b><br><br>💘Wu Yun Ta Na | Pulse 💕</b>
+</p>
+<br>
+<br>
+<p align="right" style="clear: both;">
+    <a href = "https://youtu.be/4biZQR2ov0s">
+        <img src = "img/LilysAtelier.png" width = "240" align = "left">
+    </a>
+    <b><br><br>🎵Lily's Atelier | Stellar Blade🎵</b>
+</p>
+<br>
+<br>
+<p align="left" style="clear: both;">
+    <a href = "https://youtu.be/2L3OCqW76hE">
+        <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="240" height="150" align="right">
+    </a>
+    <b><br><br>🎶Dawn in The Adan | Ichiko Aoba🎶🆙</b>
+</p>
+<br>
+<br>
 </div>
+
+<br>
+<br>
+<br>
+
+
 
 <h2 align="center">🔎 Knowledge 📖</h2>
 
