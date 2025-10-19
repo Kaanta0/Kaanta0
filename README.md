@@ -84,7 +84,7 @@
     <br>
     <p align="left" style="clear: both;">
         <a href = "https://youtu.be/2L3OCqW76hE">
-            <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="240" align="right">
+            <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="240" height="120" align="right">
         </a>
         <b><br><br>🎶Dawn in The Adan | Ichiko Aoba🎶🆙</b>
     </p>
@@ -92,7 +92,7 @@
     <br>
     <p align="right" style="clear: both;">
         <a href="https://youtu.be/AT5fDDKWMok">
-            <img src="https://i.ytimg.com/vi/AT5fDDKWMok/maxresdefault.jpg" width="240" align="left">
+            <img src="https://i.ytimg.com/vi/AT5fDDKWMok/maxresdefault.jpg" width="240" height="120" align="left">
         </a>
         <b><br>🎶17 Sekibetsu | GATE🎶💌</b>
     </p>
@@ -100,7 +100,7 @@
     <br>
     <p align="left" style="clear: both;">
         <a href="https://youtu.be/zdIc3CHvmzo">
-            <img src="https://i.ytimg.com/vi/zdIc3CHvmzo/hqdefault.jpg" width="240" height="180" align="right">
+            <img src="https://i.ytimg.com/vi/zdIc3CHvmzo/hqdefault.jpg" width="240" height="120" align="right">
         </a>
         <b><br><br>💘Wu Yun Ta Na | Pulse 💕</b>
     </p>
@@ -116,7 +116,7 @@
     <br>
     <p align="left" style="clear: both;">
         <a href = "https://youtu.be/2L3OCqW76hE">
-            <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="240" align="right">
+            <img  src ="https://i.ytimg.com/vi/2L3OCqW76hE/maxresdefault.jpg" width="240" height="120" align="right">
         </a>
         <b><br><br>🎶Dawn in The Adan | Ichiko Aoba🎶🆙</b>
     </p>
