@@ -36,7 +36,7 @@
   </a>
   <br>
   <br>
-  <img src = "https://gamer2810.github.io/steam-miniprofile/?accountId=76561198052721313&appId=3489700">
+  <iframe src="https://gamer2810.github.io/steam-miniprofile/?accountId=76561198052721313&appId=3489700" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
   <br>
   <br>
   <a href="https://github.com/kittinan/spotify-github-profile">
