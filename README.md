@@ -22,6 +22,14 @@
     alt="Stellar Blade Eve"
   />
 </div>
+<a href="https://github.com/kittinan/spotify-github-profile">
+  <img
+    src="https://spotify-github-profile.kittinanx.com/api/view?uid=3h1cg9ljpxi05octh0swt44cv&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false"
+    alt="Spotify profile"
+    width="240"
+    height="350"
+  />
+</a>
 <br>
 <div
   align="center"
@@ -32,14 +40,6 @@
       src="https://lanyard.cnrad.dev/api/503306069884534796?theme=dark&bg=ad1f25&animated=true&animatedDecoration=true&hideDiscrim=true&borderRadius=30px&idleMessage=Doing%20Very%20Important%20Stuff%20!"
       alt="Discord Presence"
       width="320"
-    />
-  </a>
-  <a href="https://github.com/kittinan/spotify-github-profile">
-    <img
-      src="https://spotify-github-profile.kittinanx.com/api/view?uid=3h1cg9ljpxi05octh0swt44cv&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false"
-      alt="Spotify profile"
-      width="240"
-      height="350"
     />
   </a>
 </div>
