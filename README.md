@@ -14,7 +14,9 @@
     />
   </p>
 </div>
-<a>
+
+<!-- Flex container for side-by-side layout -->
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 10px;">
   <img
     src="https://media1.tenor.com/m/dMFZ3Ymy9PIAAAAC/stellar-blade-eve.gif"
     width="300"
@@ -26,9 +28,11 @@
     width="240"
     height="350"
   />
-</a>
 </div>
+
 <br>
+
+
 <div
   align="center"
   style="margin: 1.5rem 0; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;"
